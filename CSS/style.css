@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* 共通 */
+body {
+  font-size: 18px;
+}
+
+/* header*/
+header {
+  background-color: rgb(237, 171, 222);
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header {
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+header h1 {
+  color: black;
+  font-weight: bold;
+  padding: 2% 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 7% 0;
+}
+
+nav ul li {
+  font-size: 1rem;
+  margin-left: 20px;
+  padding: 1.5%;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* main */
+.section_title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #070706;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+/* top */
+#top {
+  height: 600px;
+  background: url(../img/23650479_s.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.top_wrapper {
+  padding: 2%;
+  margin-right: 10%;
+  border: 3px solid pink;
+  background-color: rgb(237, 171, 222);
+  display: block;
+}
+
+.top_wrapper a {
+  text-decoration: none;
+}
+
+.top_wrapper h2 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.top_wrapper p {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 3rem;
+}
+
+/* service */
+#service {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.service_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service_left img {
+  width: 70%;
+  height: auto;
+}
+
+.service_right h3 {
+  font-size: 1.5rem;
+  color: pink;
+  padding: 2.5% 0;
+}
+
+.service_right p,
+ol {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* news */
+#news {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.news_wrapper {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.news_item {
+  list-style: none;
+  border-bottom: 1px solid #bcbcbc;
+}
+
+.news_item + .news_item {
+  margin-top: 30px;
+}
+
+.news_item p {
+  margin-top: 5px;
+  padding: 10px 16px;
+}
+
+/* price */
+#price {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.price_txt {
+  padding-bottom: 3%;
+}
+
+.price_txt p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: bold;
+  color: pink;
+}
+
+.price_wrapper table {
+  border: 5px solid lightblue;
+  width: 100%;
+  text-align: center;
+}
+
+.price_wrapper table tr {
+  border: 3px solid lightblue;
+  padding: 1%;
+}
+
+.price_wrapper table th {
+  border: 3px solid lightblue;
+  padding: 2%;
+  font-size: 1.3rem;
+}
+
+.price_wrapper table td {
+  border: 3px solid lightblue;
+  padding: 2%;
+  font-size: 1.2rem;
+}
+
+/* contact */
+#contact {
+  background: pink;
+}
+
+#contact h2 {
+  padding: 5% 0;
+  margin: 0;
+}
+
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  width: 60%;
+  margin-bottom: 2.5%;
+}
+
+input {
+  padding: 1%;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button_submit {
+  padding: 1.5% 5%;
+  background-color: lightblue;
+  margin: 5% 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+/* footer */
+#footer {
+  background-color: lightblue;
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+}
